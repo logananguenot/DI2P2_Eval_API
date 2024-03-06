@@ -12,5 +12,5 @@ public class AppDbContext : Microsoft.EntityFrameworkCore.DbContext
         base.OnModelCreating(modelBuilder);
     }
 
-    public DbSet<User>? Users { get; set; }
+    public DbSet<Event>? Events { get; set; }
 }

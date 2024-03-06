@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Di2P2Eval.DbContext\Di2P2Eval.DbContext.csproj" />
+    <ProjectReference Include="..\Di2P2Eval.Repositories\Di2P2Eval.Repositories.csproj" />
+    <ProjectReference Include="..\Di2P2Eval.Services.Contracts\Di2P2Eval.Services.Contracts.csproj" />
+  </ItemGroup>
+
+</Project>

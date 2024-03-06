@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "Di2P2Eval.Azure": {
+      "commandName": "Project",
+      "commandLineArgs": "--port 7041",
+      "launchBrowser": false
+    }
+  }
+}
